@@ -2,7 +2,7 @@
 
 This Repository is Backend repository of Feel Pot.
 
-Frontend: https://github.com/FeelPot-Frontend
+Frontend: https://github.com/silbioa480/FeelPot-Frontend
 
 github-pages: https://silbioa480.github.io/FeelPot-Frontend
 
