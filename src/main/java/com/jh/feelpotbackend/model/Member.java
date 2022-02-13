@@ -26,6 +26,9 @@ public class Member {
   @Column(name = "is_male")
   private boolean isMale;
 
+  @Column(name = "address")
+  private String address;
+
   @Column(name = "email")
   private String email;
 
@@ -38,11 +41,12 @@ public class Member {
   public Member() {
   }
 
-  public Member(String name, String password, Date birth, boolean isMale, String email, String phoneNumber, boolean isAdmin) {
+  public Member(String name, String password, Date birth, boolean isMale, String address, String email, String phoneNumber, boolean isAdmin) {
     this.name = name;
     this.password = password;
     this.birth = birth;
     this.isMale = isMale;
+    this.address = address;
     this.email = email;
     this.phoneNumber = phoneNumber;
     this.isAdmin = isAdmin;
@@ -86,6 +90,14 @@ public class Member {
 
   public void setIsMale(boolean isMale) {
     this.isMale = isMale;
+  }
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
   }
 
   public String getEmail() {

@@ -48,6 +48,7 @@ public class MemberController {
     member.setPassword(changedMember.getPassword());
     member.setBirth(changedMember.getBirth());
     member.setIsMale(changedMember.getIsMale());
+    member.setAddress(changedMember.getAddress());
     member.setEmail(changedMember.getEmail());
     member.setPhoneNumber(changedMember.getPhoneNumber());
     member.setIsAdmin(changedMember.getIsAdmin());
