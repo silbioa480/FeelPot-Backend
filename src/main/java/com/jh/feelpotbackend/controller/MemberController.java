@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "https://silbioa480.github.io/")
+@CrossOrigin(origins = "https://silbioa480.github.io/, http://localhost:3000")
 @RestController
 @RequestMapping("/api/")
 public class MemberController {
