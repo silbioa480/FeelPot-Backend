@@ -1,0 +1,13 @@
+spring:
+  jap:
+    hibernate:
+  #      ddl-auto: create-drop
+  datasource:
+    url: "jdbc:mysql://us-cdbr-east-05.cleardb.net/heroku_83b1cb314801fb4?"
+    username: b060595e4abcbe
+    password: d0c40439
+    hikari:
+      maxLifetime: 20000
+
+server:
+  port: ${port:8080}
