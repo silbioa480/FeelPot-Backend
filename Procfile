@@ -1,1 +1,1 @@
-web: java -Dspring.server.port=$PORT -Dspring.profiles.active=production $JAVA_OPTS -jar "target/FeelPot-Backend-0.0.1-SNAPSHOT-0.0.1-SNAPSHOT.jar"
+web: java -Dspring.server.port=$PORT $JAVA_OPTS -jar "target/FeelPot-Backend-0.0.1-SNAPSHOT-0.0.1-SNAPSHOT.jar"
