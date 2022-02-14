@@ -52,6 +52,7 @@ public class MemberController {
     member.setEmail(changedMember.getEmail());
     member.setPhoneNumber(changedMember.getPhoneNumber());
     member.setIsAdmin(changedMember.getIsAdmin());
+    member.setCart(changedMember.getCart());
 
     Member updateMember = memberRepository.save(member);
 

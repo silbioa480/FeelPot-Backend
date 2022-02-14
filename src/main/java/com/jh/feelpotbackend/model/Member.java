@@ -38,10 +38,13 @@ public class Member {
   @Column(name = "is_admin")
   private boolean isAdmin;
 
+  @Column(name = "cart")
+  private String cart;
+
   public Member() {
   }
 
-  public Member(String name, String password, Date birth, boolean isMale, String address, String email, String phoneNumber, boolean isAdmin) {
+  public Member(String name, String password, Date birth, boolean isMale, String address, String email, String phoneNumber, boolean isAdmin, String cart) {
     this.name = name;
     this.password = password;
     this.birth = birth;
@@ -50,6 +53,7 @@ public class Member {
     this.email = email;
     this.phoneNumber = phoneNumber;
     this.isAdmin = isAdmin;
+    this.cart = cart;
   }
 
   public String getId() {
@@ -122,5 +126,13 @@ public class Member {
 
   public void setIsAdmin(boolean isAdmin) {
     this.isAdmin = isAdmin;
+  }
+
+  public String getCart() {
+    return cart;
+  }
+
+  public void setCart(String cart) {
+    this.cart = cart;
   }
 }
