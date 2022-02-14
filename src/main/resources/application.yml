@@ -1,7 +1,7 @@
 spring:
-  jap:
+  jpa:
     hibernate:
-  #      ddl-auto: create-drop
+      ddl-auto: create-drop
   datasource:
     url: "jdbc:mysql://eyw6324oty5fsovx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/p91ljnlc67whotic"
     username: gl2c3r2fna13se4w
