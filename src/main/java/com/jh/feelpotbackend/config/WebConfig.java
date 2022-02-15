@@ -9,6 +9,6 @@ public class WebConfig implements WebMvcConfigurer {
   @Override
   public void addCorsMappings(CorsRegistry registry) {
     registry.addMapping("/**")
-      .allowedOrigins("https://silbioa480.github.io", "http://localhost:3000");
+      .allowedOrigins("https://silbioa480.github.io", "http://localhost:3000", "https://feel-pot-frontend.vercel.app");
   }
 }
