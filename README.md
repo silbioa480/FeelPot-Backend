@@ -7,16 +7,18 @@ Frontend: https://github.com/silbioa480/FeelPot-Frontend
 heroku: https://feel-pot-backend.herokuapp.com/
 
 + /api
-  + get - /members: get all members
-  + post - /members: create new member
-  + get - /members/{id}: find member by id
-  + put - /members/{id}: update member by id
-  + delete - /members{id}: delete member by id
+  + /members
+    + get - / : get all members
+    + post - / : create new member
+    + get - /{id} : find member by id
+    + put - /{id} : update member by id
+    + delete - /{id} : delete member by id
 
-  + get - /products: get all products
-  + post - /products: create new products
-  + get - /products/{id}: find product by id
-  + put - /products/{id}: update product by id
-  + delete - /product/{id}: delete product by id
+  + /products
+    + get - / : get all products
+    + post - / : create new products
+    + get - /{id} : find product by id
+    + put - /{id} : update product by id
+    + delete - /{id} : delete product by id
 
 using Spring Boot & MySQL & Heroku
