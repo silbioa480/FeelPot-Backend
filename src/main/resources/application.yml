@@ -3,9 +3,9 @@ spring:
     hibernate:
       ddl-auto: create-drop
   datasource:
-    url: "jdbc:mysql://eyw6324oty5fsovx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/p91ljnlc67whotic"
-    username: gl2c3r2fna13se4w
-    password: t2b2vpdgb3gxp5ss
+    url: "jdbc:mysql://us-cdbr-east-05.cleardb.net:3306/heroku_3769c620c5d64df"
+    username: b350819b70426c
+    password: b8e5e6ed
     hikari:
       maxLifetime: 20000
 
