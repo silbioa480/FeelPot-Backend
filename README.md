@@ -17,6 +17,7 @@ heroku: https://feel-pot-backend.herokuapp.com/
   + /products
     + get - / : get all products
     + post - / : create new products
+    + post - /all : create all products
     + get - /{id} : find product by id
     + put - /{id} : update product by id
     + delete - /{id} : delete product by id
