@@ -29,6 +29,11 @@ public class ProductController {
     return productRepository.save(product);
   }
 
+  @PostMapping("/products/all")
+  public void createAllProducts(@RequestBody List<Product> products) {
+    productRepository.saveAll(products);
+  }
+
   @GetMapping("/products/{id}")
   public ResponseEntity<Product> getProductById(@PathVariable long id) {
     Product product = productRepository.findById(id).
