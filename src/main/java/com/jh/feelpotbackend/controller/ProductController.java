@@ -30,8 +30,8 @@ public class ProductController {
   }
 
   @PostMapping("/products/all")
-  public void createAllProducts(@RequestBody List<Product> products) {
-    productRepository.saveAll(products);
+  public List<Product> createAllProducts(@RequestBody List<Product> products) {
+    return productRepository.saveAll(products);
   }
 
   @GetMapping("/products/{id}")
