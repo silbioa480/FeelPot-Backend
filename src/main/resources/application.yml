@@ -1,7 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
   datasource:
     url: "jdbc:mysql://us-cdbr-east-05.cleardb.net:3306/heroku_3769c620c5d64df"
     username: b350819b70426c
